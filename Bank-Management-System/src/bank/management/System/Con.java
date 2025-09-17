@@ -11,8 +11,8 @@ public class Con {
             Class.forName("com.mysql.cj.jdbc.Driver");
             connection = DriverManager.getConnection(
                     "jdbc:mysql://localhost:3306/bankSystem?useSSL=false&allowPublicKeyRetrieval=true",
-                    "root",
-                    "rashmitasahu@#12345"
+                    // "attach your local host name of data base",
+                    // "attach your database password here"
             );
 
             statement = connection.createStatement();
@@ -24,3 +24,4 @@ public class Con {
         }
     }
 }
+
