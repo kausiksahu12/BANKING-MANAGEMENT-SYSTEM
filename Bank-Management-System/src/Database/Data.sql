@@ -1,5 +1,5 @@
-create database bankSystem;
-use bankSystem;
+create database bankSystem1;
+use bankSystem1;
 create table signup(
 form_no varchar(30), 
 name varchar(30),
